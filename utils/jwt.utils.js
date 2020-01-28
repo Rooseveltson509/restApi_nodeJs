@@ -1,6 +1,7 @@
 // Imports
 var jwt = require('jsonwebtoken');
 
+// I generate the Sign Secret manueal
 const JWT_SIGN_SECRET = '0sjhfd6ggigb6ojds0ndbmetezfetvwzwzgegzz54dffefedfdzreerh0GHJGD';
 
 // Exported function
