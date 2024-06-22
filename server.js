@@ -16,7 +16,6 @@ server.get('/', function(req, res) {
     res.status(200).send('<h1>Vous êtes sur mon server</h1>');
 });
 
-
 server.use('/api/', apiRouter);
 
 // Launch server
